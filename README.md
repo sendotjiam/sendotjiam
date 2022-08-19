@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+I'm currently majoring Mobile Application Technology at BINUS University Jakarta. I am highly interested in tech development. I am passionate on developing an impactful tech things especially mobile application application (iOS).
+
+[![Linkedin: Sendo Tjiamis](https://img.shields.io/badge/-Sendo%20Tjiam-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sendo-tjiamis-a03a73192/)](https://www.linkedin.com/in/sendo-tjiamis-a03a73192/)
+
 <!--
 **sendotjiam/sendotjiam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
