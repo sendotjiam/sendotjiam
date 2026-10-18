@@ -3,21 +3,28 @@
 # Hi, I'm Sendo 👋
 
 <a href="https://github.com/sendotjiam">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0A84FF&center=true&vCenter=true&width=480&lines=iOS+Developer+%40+Grab;Swift+%C2%B7+SwiftUI+%C2%B7+UIKit+%C2%B7+TCA;Workshop+speaker+%26+mentor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0A84FF&center=true&vCenter=true&width=520&lines=iOS+Software+Engineer+%40+Grab;Swift+%C2%B7+SwiftUI+%C2%B7+UIKit+%C2%B7+TCA;Shipping+to+millions+of+users" alt="Typing SVG" />
 </a>
 
 </div>
 
 ## About
 
-iOS Developer at **Grab**, based in Jakarta. I build and scale iOS features with Swift, SwiftUI, and UIKit, with a focus on clean architecture (TCA, reactive programming) and maintainable codebases. I also enjoy sharing what I learn through workshops and bootcamps.
+iOS Software Engineer at **Grab**, based in Jakarta. I build user-facing features for the **Grab Driver** app, used by millions across Southeast Asia. Before that, I shipped the **TikTok Seller Center** and **Tokopedia** iOS apps at ByteDance. I like clean architecture, migrating legacy UI to modern UIKit and SwiftUI, and AI-assisted engineering workflows.
 
 ## Experience
 
-- **Grab** · iOS Developer · *Present*
-- **BINUS University** · Mobile Application Technology
+| Company | Role | Period | Product |
+|---|---|---|---|
+| **Grab** | iOS Software Engineer | Nov 2025 – Present | Grab Driver |
+| **ByteDance (Tokopedia)** | iOS Software Engineer | Oct 2023 – Nov 2025 | TikTok Seller Center, Tokopedia |
+| **Grab (OVO)** | iOS Software Engineer Intern | Sep 2022 – May 2023 | OVO payments |
+| **Bank MNC Internasional** | iOS Software Engineer Intern | Feb 2022 – Aug 2022 | Motion Banking |
+| **Kalbe E-Health** | iOS Software Engineer Intern | Aug 2021 – Feb 2022 | KlikDiabetes |
 
-Full history on [LinkedIn →](https://www.linkedin.com/in/sendo-tjiamis-a03a73192/)
+🎓 **BINUS University**, B.Comp.Sc. (Information Technology), 2019 – 2023
+
+Full details on [LinkedIn →](https://www.linkedin.com/in/sendo-tjiam/)
 
 ## Tech Stack
 
@@ -51,10 +58,6 @@ Full history on [LinkedIn →](https://www.linkedin.com/in/sendo-tjiamis-a03a731
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sendo-tjiamis-a03a73192/)
-<!-- TODO: uncomment and fill in your links
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=astro&logoColor=white)](https://YOUR-PORTFOLIO-URL)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL)
-[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/YOUR-HANDLE)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@YOUR-HANDLE)
--->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sendo-tjiam/)
+[![Website](https://img.shields.io/badge/sendotjiam.me-000000?style=flat-square&logo=astro&logoColor=white)](https://sendotjiam.me/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sendotjiamis9898@gmail.com)
