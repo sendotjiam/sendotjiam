@@ -1,0 +1,60 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # Optional PAT (repo + read:user) so private contributions are counted; falls back to GITHUB_TOKEN.
+      STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+      USER_OPTS: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&count_private=true&include_all_commits=true
+      LANG_OPTS: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: ${{ env.USER_OPTS }}&theme=default
+          path: profile/stats.svg
+          token: ${{ env.STATS_TOKEN }}
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: ${{ env.USER_OPTS }}&theme=github_dark
+          path: profile/stats-dark.svg
+          token: ${{ env.STATS_TOKEN }}
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: ${{ env.LANG_OPTS }}&theme=default
+          path: profile/top-langs.svg
+          token: ${{ env.STATS_TOKEN }}
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: ${{ env.LANG_OPTS }}&theme=github_dark
+          path: profile/top-langs-dark.svg
+          token: ${{ env.STATS_TOKEN }}
+
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/snake.svg
+            profile/snake-dark.svg?palette=github-dark
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: update profile cards" || exit 0
+          git push
