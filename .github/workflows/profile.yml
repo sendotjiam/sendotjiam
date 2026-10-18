@@ -14,7 +14,7 @@ jobs:
     env:
       # Optional PAT (repo + read:user) so private contributions are counted; falls back to GITHUB_TOKEN.
       STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
-      USER_OPTS: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&count_private=true&include_all_commits=true
+      USER_OPTS: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&hide_rank=true&count_private=true&include_all_commits=true
       LANG_OPTS: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true
     steps:
       - uses: actions/checkout@v6
